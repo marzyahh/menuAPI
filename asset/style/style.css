@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(241, 245, 248);
+  height: 100vh;
+}
+body .main .head > h1 {
+  position: relative;
+}
+body .main .head > h1::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -50%;
+  left: 45%;
+  width: 130px;
+  height: 5px;
+  background-color: rgb(202, 177, 145);
+}
+body .main .head .menu {
+  width: 100%;
+}
+body .main .head .menu > button {
+  width: 100px;
+  border: 3px solid rgb(202, 177, 145);
+  font-size: 20px;
+}
+body .main .head .pics figure img {
+  width: 50%;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 5px solid rgb(208, 135, 40);
+  border-radius: 30px;
+}
+body .main .head .pics figure figcaption > .title {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+body .main .head .pics figure figcaption > .title > h4 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(202, 177, 145);
+  font-family: Roboto, sans-serif;
+}
+body .main .head .pics figure figcaption .description {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: Open Sans\, sans-serif;
+  color: rgb(97, 125, 152);
+  text-align: start;
+  line-height: 24px;
+}/*# sourceMappingURL=style.css.map */
